@@ -43,7 +43,7 @@ const testSquares = (squares, activeIdx) => {
 test("AppFunctional bir fonksiyonel bileşendir.", () => {
   expect(
     AppFunctional.prototype && AppFunctional.prototype.isReactComponent
-  ).toBeTruthy();
+  ).not.toBeTruthy();
 });
 
 [AppFunctional].forEach((Component, idx) => {
